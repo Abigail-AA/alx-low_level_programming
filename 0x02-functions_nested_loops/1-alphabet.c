@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print-alphabet - Alphabet game
+ * print_alphabet - Alphabet game
  *
  * Return: void
  *
