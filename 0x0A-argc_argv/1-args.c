@@ -1,17 +1,13 @@
 #include <stdio.h>
 /**
- * main - prints all argument it receives
+ * main - prints the number of arguments that are passed to it
  * @argc: input
  * @argv: input
  * Return: Always 0 
  */
 int main(int argc, char *argv[])
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-	}
+	(void)argv;
+	printf("%d\n", (argc - 1));
 	return (0);
 }
